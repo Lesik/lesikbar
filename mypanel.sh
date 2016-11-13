@@ -55,7 +55,7 @@ COLOR_HIGHLIGHT="#aadb0f"
 				[.]*)	env printf "%%{F$COLOR_BLUE}$tag_name_formatted%%{F-}";;
 				# everything else
 				*)		env printf "$tag_name_formatted"
-            esac
+			esac
 		done
 
 		# begin center part of panel
