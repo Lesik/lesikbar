@@ -20,3 +20,8 @@ In general you should be able to `./mypanel.sh`.
 You need `herbstluftwm`, `acpi`, `alsa-utils` and `printf` from `coreutils`.
 There is an optional dependency on
 [`xtitle`](https://github.com/baskerville/xtitle).
+
+## Screenshot?
+Sure.
+
+![screenshot](https://raw.githubusercontent.com/Lesik/lesikbar/master/2016-10-29-215946_1024x768_scrot.png)
