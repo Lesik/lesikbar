@@ -1,6 +1,6 @@
 #!/bin/sh
 
-panelname=mypanel
+panelname=lesikbar
 panelpath=~/.config/herbstluftwm/${panelname}.sh
 [ -x "$panelpath" ] || panelpath=/etc/xdg/herbstluftwm/panel.sh
 
