@@ -24,4 +24,4 @@ There is an optional dependency on
 ## Screenshot?
 Sure.
 
-![screenshot](https://raw.githubusercontent.com/Lesik/lesikbar/master/2016-10-29-215946_1024x768_scrot.png)
+![screenshot](https://raw.githubusercontent.com/Lesik/lesikbar/2016_october/2016-10-29-215946_1024x768_scrot.png)
