@@ -1,0 +1,12 @@
+#!/bin/sh
+
+panelname=mypanel
+panelpath=~/.config/herbstluftwm/${panelname}.sh
+[ -x "$panelpath" ] || panelpath=/etc/xdg/herbstluftwm/panel.sh
+
+pkill $panelname
+herbstclient detect_monitors
+nitrogen --restore
+for monitor in $(herbstclient list_monitors | cut -d: -f1); do
+	"$panelpath" $monitor &
+done
