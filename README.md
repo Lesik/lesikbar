@@ -16,3 +16,6 @@ FIFO.
 
 ## How?
 I noticed that as my needs and computers change, so do my panels. This doesn't mean that one of my newer wrappers is better than the older ones, so do check out all of them to discover whichever you like best. Simply have a look into the different branches of this repository.
+
+## Contribute?
+While I do consider the panels to be feature-complete (I usually only push them once I'm fully satisfied), there are things you can improve if you want. For example, I really don't give a shit about all the different options lemonbar offers, like panel colors or fonts. The colors could be derived from herbstclient attributes, for example, and the font could be requested from Xresources. That would be cool to have, but I find color work horrendously boring, which colors fit well with others, bla. If you care about this, feel free to submit a pull request.
