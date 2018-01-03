@@ -3,13 +3,10 @@
 # I put a lot of effort in making it POSIX compliant
 # to improve speed and compatibility
 
-panel_height=18
+alias hc="herbstclient"
 
 # TODO currently only pads one mon, should do all
-herbstclient pad 0 $panel_height
-
-alias hc="herbstclient"
-alias p="env printf '%s'"
+hc pad 0 18
 
 active_color="$(hc attr theme.active.color)"
 normal_color="$(hc attr theme.normal.color)"
@@ -64,8 +61,7 @@ omit_focus() { hc emit_hook focus_changed "$(hc attr clients.focus.winid)" "$(hc
 					output_tag="$output_tag  $tag  %{-o}%{B-}%{F-}"
 				done;;
 		esac
-		p "$output_tag$title"
-		env printf "\n"
+		env printf "%s\n" "$output_tag$title"
 	done
 } | lemonbar -g x$panel_height -B "$COLOR_BG" \
 	-U "$active_color"
